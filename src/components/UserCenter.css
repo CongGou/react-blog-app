@@ -1,0 +1,31 @@
+.jumbotron {
+  padding-top: 10px;
+}
+.container {
+  padding: 50px 20px;
+}
+.ImagePic {
+  margin-bottom: 60px !important;
+}
+.jumbotron .mb-3 {
+  width: 700px;
+  height: 60px;
+  padding-top: 25px;
+}
+.input-group-text {
+  width: 100px;
+  background-color: #fff;
+  border: none;
+  margin-right: 30px;
+}
+@media (max-width: 768px) {
+  .mb-3 {
+    width: 500px;
+  }
+}
+
+@media (max-width: 576px) {
+  .mb-3 {
+    width: 450px;
+  }
+}
