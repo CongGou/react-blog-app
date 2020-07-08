@@ -1,0 +1,63 @@
+p {
+  margin: 0;
+}
+.Author {
+  cursor: pointer;
+  width: 248px;
+  background: #fff;
+  margin-top: 10px;
+}
+.Author > p {
+  height: 41px;
+  line-height: 42px;
+  text-indent: 20px;
+  border-bottom: 1px solid #f4f5f5;
+}
+.Author > ul {
+  margin: 0;
+  padding: 0;
+  height: 235px;
+  overflow: hidden;
+}
+.Author > ul > li {
+  text-decoration: none;
+  list-style: none;
+  height: 78px;
+  padding: 10px 20px;
+}
+.Author > ul > li:hover {
+  background: rgb(250, 252, 253);
+}
+.Author > ul > li > p > img {
+  width: 45px;
+  height: 45px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+.Author > ul > li > p > a {
+  width: 150px;
+  display: inline-block;
+  vertical-align: top;
+  height: 67px;
+}
+.Author > ul > li > p > a > span {
+  display: inline-block;
+  color: #ccc;
+  font-size: 13px;
+  width: 120px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.Author .AuthorName {
+  font-size: 14px;
+  font-weight: bold;
+  color: #626262;
+}
+.Author .CompleteList {
+  border-top: 1px solid #f4f5f5;
+  height: 42px;
+  text-align: center;
+  color: blue;
+}

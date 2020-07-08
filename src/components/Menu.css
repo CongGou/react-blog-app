@@ -1,0 +1,46 @@
+.Menu {
+  position: fixed;
+  z-index: 1000;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.1);
+  top: 0;
+}
+.Menu-list {
+  position: absolute;
+  left: -350px;
+  animation: MenuAnimation 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  width: 250px;
+  height: 100%;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.Menu-list > ul > li {
+  text-align: center;
+  width: 100%;
+  cursor: pointer;
+}
+.Menu-list > ul > li:hover {
+  color: blue;
+}
+.Menu-list > ul > li:hover a {
+  color: blue;
+}
+.Menu-list > ul > li > a {
+  color: black;
+}
+.Menu-list .navbar-nav {
+  margin: 0 !important;
+}
+@keyframes MenuAnimation {
+  from {
+    left: -350px;
+  }
+  to {
+    left: 0;
+  }
+}

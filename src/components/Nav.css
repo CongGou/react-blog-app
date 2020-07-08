@@ -1,0 +1,153 @@
+.Navbox {
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  width: 100%;
+  background: #fff;
+  height: 60px;
+}
+.Logo {
+  width: 100px;
+}
+.Navbox .bg-light {
+  width: 960px;
+  height: 60px;
+  margin: 0 auto;
+  padding-left: 0;
+  padding-right: 0;
+  background: #fff !important;
+}
+.NavBar {
+  position: fixed;
+  top: 60px;
+  height: 45px;
+  width: 100%;
+  z-index: 10;
+  border-top: 1px solid #f4f5f5;
+  box-shadow: 0 0 1px #ccc;
+  background: #fff;
+  overflow: hidden;
+  /* overflow-x: auto; */
+}
+.NavBarWrap {
+  width: 960px;
+  margin: 0 auto;
+}
+.NavBar .mb-2 {
+  width: 700px;
+  font-size: 14px;
+  padding-left: 10px;
+}
+.form-inline .UserPhoto {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+.UserName {
+  display: inline-block;
+  line-height: 30px;
+  white-space: nowrap;
+  font-size: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 30px;
+  width: 60px;
+  cursor: pointer;
+  vertical-align: middle;
+}
+.QrCode {
+  display: inline-block;
+  color: #ccc;
+}
+.QrCode img {
+  margin-right: 5px;
+}
+.QrCode span {
+  vertical-align: middle;
+  display: inline-block;
+  width: 40px;
+  font-size: 12px;
+}
+
+@media (max-width: 998px) {
+  .mr-auto {
+    margin-right: 180px !important;
+  }
+  .form-inline .UserPhoto {
+    display: none;
+  }
+  .UserName {
+    display: none;
+  }
+  .collapse .my-lg-0 .mr-sm-2 {
+    width: 193px !important;
+  }
+}
+@media (max-width: 930px) {
+  .mr-auto {
+    margin-right: 130px !important;
+  }
+}
+
+@media (max-width: 860px) {
+  /* .Center {
+    display: none;
+  } */
+  .mr-auto {
+    margin-right: 100px !important;
+  }
+}
+
+@media (max-width: 840px) {
+  .Center {
+    display: none;
+  }
+  .mr-auto {
+    margin-right: 150px !important;
+  }
+}
+@media (max-width: 575px) {
+  .navbar-toggler {
+    position: absolute;
+    right: 400px;
+  }
+}
+@media (max-width: 500px) {
+  .NavBar {
+    width: 500px;
+  }
+  .Logo {
+    margin-left: 200px;
+  }
+  .NavBarWrap {
+    width: 500px;
+  }
+  .navbar-toggler {
+    right: 480px;
+  }
+  .justify-content-between {
+    justify-content: start !important;
+  }
+  .QrCode {
+    display: none;
+  }
+}
+@media (max-width: 414px) {
+  .Logo {
+    margin-left: 160px;
+  }
+  .navbar-toggler {
+    right: 560px;
+  }
+  .NavBar .mb-2 {
+    font-size: 12px;
+    padding-left: 0;
+  }
+  .justify-content-between {
+    justify-content: start !important;
+  }
+}

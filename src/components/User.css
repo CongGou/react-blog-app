@@ -1,0 +1,65 @@
+.User {
+  position: fixed;
+  width: 248px;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 10px;
+}
+.UserData {
+  position: relative;
+  height: 93px;
+  padding: 16px;
+  margin-bottom: 1px;
+  background: #fff;
+}
+.UserData > a {
+  color: #000;
+  text-decoration: none;
+}
+.User .UserPhoto {
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  margin-right: 10px;
+  box-shadow: 0 0 5px #ccc;
+  vertical-align: middle;
+}
+.UserData .userName {
+  display: inline-block;
+  width: 120px;
+  font-size: 16px;
+  height: 45px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: bold;
+  color: black;
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+.UserLabel {
+  width: 248px;
+  background: #fff;
+  height: 66px;
+  padding: 16.5px 0;
+}
+.UserLabel > p {
+  margin: 0;
+  font-size: 13px;
+}
+.UserLabel > p > a {
+  display: inline-block;
+  width: 82px;
+  text-align: center;
+}
+.UserLabel > p > a > span {
+  display: inline-block;
+  height: 13px;
+  color: #98a5b3;
+}
+.UserLabel > p > a > .text-muted {
+  height: 15px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #000 !important;
+}
